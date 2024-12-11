@@ -1,0 +1,77 @@
+.form{
+     border: #123 solid 3px;
+     border-radius: 10px;
+     justify-content: space-around;
+     justify-content: center;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     padding: 20px;
+     width: 35%;
+     height: auto;
+}
+*{
+     box-sizing: border-box;
+     color: #123;
+     background-color: #def;
+     font-size: 15px;
+     height: auto;
+     justify-content: center;
+ }
+ input[type="text"],input[type="password"],input[type="email"],input[type="date"]{
+     border: 1px solid #ccc;
+     color: #000;
+     border-radius: 5px;
+     width: 70%;
+     padding: 15px;
+     margin: 5px 0 22px 0;
+     display: inline-block;
+     background-color: white;
+ }
+ button[type="submit"]{
+     background-color: blue;
+     border: none;
+     padding: 10px 20px;
+     color: #000;
+     border-radius: 5px;
+     cursor: pointer;
+     opacity: 0.6s;
+     transition: 0.3s;
+     display: inline-block;
+     text-decoration: none;
+     font-size: 15px;
+     margin: 0;
+ }
+ button[type="submit"]:hover{
+     background-color: #14919c;
+     color: white;
+ }
+ button[type="login"]{
+    border: none;
+    float: right;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 10px;
+    color: blue;
+}
+button[type="login"]{
+    color: #14919c;
+}
+.close{
+    color: #aaa;
+    float: right;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.close:hover{
+    color: #000;
+}
+h2{
+    font-size: 25px;
+    margin: 2px;
+}
+label{
+    font-weight: bolder;
+}
